@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+.filter-content {
+  margin-left: 5%;
+}
+
+.filter-content .filter-email {
+  margin-top: 5%;
+}
+
+.filter-content .filter-mobile {
+  margin-top: 5%;
+}
+
+.filter-content .filter-date {
+  width: '100%';
+  margin-top: 5%;
+}
+
+.financial-search-form {
+  background-color: #fff;
+  border-right: 1px solid #cccccc;
+  padding-right: 1em;
+}
+
+.financial-search-form .financial-form-search-button {
+  float: right;
+}
+
+.financial-search-form .financial-list-type {
+  margin-top: 1em;
+}
+
+.financial-search-form .financial-dropdown-button .search-button {
+  color: #8195bd;
+  border-bottom: 2px solid #666666;
+  margin-bottom: 1em;
+  font-weight: 800;
+  font-size: 18px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.financial-search-form .form-subtitle {
+  color: #595c73;
+  font-weight: 800;
+}
+
+.financial-search-form .form-check-label {
+  color: #8195bd;
+}
+
+.financial-courier-list {
+  border-right: 1px solid #cccccc;
+  padding-right: 1em;
+  overflow-y: scroll;
+  max-height: 300px;
+  margin: auto;
+}
+
+.financial-selected-list {
+  border-right: 1px solid #cccccc;
+  padding-right: 1em;
+  overflow-y: scroll;
+  max-height: 300px;
+}
+
+.courierlist {
+  max-height: 6em;
+  border: 1px solid #cccccc;
+  width: 95%;
+  margin-top: 1em;
+  border-radius: 5px;
+  border-color: #f1f1f1;
+}
+
+.courierlist .courierlist-fullname {
+  color: #8195bd;
+  font-weight: 700;
+}
+
+.courierlist .courierlist-icon {
+  margin-top: 10px;
+  vertical-align: middle;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+/*# sourceMappingURL=index.css.map */

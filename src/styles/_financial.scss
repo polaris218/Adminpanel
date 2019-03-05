@@ -1,0 +1,45 @@
+$border-color: darken(#fff, 20%);
+$border-style: 1px solid $border-color;
+$form-check-label-color: #8195bd;
+$form-check-subtitle-color: rgb(89, 92, 115);
+.financial-search-form {
+  background-color: #fff;
+  border-right: 1px solid $border-color;
+  padding-right: 1em;
+  .financial-form-search-button {
+    float: right;
+  }
+  .financial-list-type {
+    margin-top: 1em;
+  }
+  .financial-dropdown-button {
+    .search-button {
+      color: $form-check-label-color;
+      border-bottom: 2px solid lighten(#000, 40%);
+      margin-bottom: 1em;
+      font-weight: 800;
+      font-size: 18px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+  }
+  .form-subtitle {
+    color: $form-check-subtitle-color;
+    font-weight: 800;
+  }
+  .form-check-label {
+    color: $form-check-label-color
+  };
+}
+.financial-courier-list {
+  border-right: $border-style;
+  padding-right: 1em;
+  overflow-y: scroll;
+  max-height: 300px;
+  margin: auto;
+}
+.financial-selected-list {
+  border-right: $border-style;
+  padding-right: 1em;
+  overflow-y: scroll;
+  max-height: 300px;
+}

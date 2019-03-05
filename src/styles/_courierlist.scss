@@ -1,0 +1,20 @@
+$border-color: darken(#fff, 20%);
+$border-style: 1px solid $border-color;
+$color-fullname: rgb(129, 149, 189);
+$courierlist-border-color: rgb(241, 241, 241);
+.courierlist {
+  max-height: 6em;
+  border: $border-style;
+  width: 95%;
+  margin-top: 1em;
+  border-radius: 5px;
+  border-color: $courierlist-border-color;
+  .courierlist-fullname {
+    color: $color-fullname;
+    font-weight: 700;
+  }
+  .courierlist-icon {
+    margin-top: 10px;
+    vertical-align: middle;
+  }
+}

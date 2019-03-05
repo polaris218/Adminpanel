@@ -1,0 +1,51 @@
+import { bindActionCreators } from 'redux';
+import {
+  getSendersDataWatcher,
+  getCouriersDataWatcher,
+  getSenderDataWatcher,
+  getPartnerDataWatcher,
+  getReceiverDataWatcher,
+  getCourierDataWatcher,
+  getUserDataByIdWatcher,
+  getAdminDataWatcher,
+  setPanelWatcher,
+  getAdminDataByIdWatcher,
+  updateAdminDataUpdateWatcher,
+  createNewAdminWatcher,
+  setAdminCreatedSuccess,
+  getFinancialListWatcher,
+  getCityListWatcher,
+  updateUserDataWatcher,
+} from './watchers';
+
+export const mapStateToProps = state => ({
+  senders: state.senders,
+  couriers: state.couriers,
+  panel: state.panel,
+  users: state.users,
+  admin: state.admin,
+  userDetail: state.userDetail,
+  admininfo: state.admininfo,
+  createadmin: state.createadmin,
+  financy: state.financy,
+  city: state.city,
+});
+
+export const mapDispatchToProps = dispatch => bindActionCreators({
+  setPanelWatcher,
+  getSendersDataWatcher,
+  getCouriersDataWatcher,
+  getSenderDataWatcher,
+  getPartnerDataWatcher,
+  getReceiverDataWatcher,
+  getCourierDataWatcher,
+  getUserDataByIdWatcher,
+  getAdminDataWatcher,
+  getAdminDataByIdWatcher,
+  updateAdminDataUpdateWatcher,
+  createNewAdminWatcher,
+  setAdminCreatedSuccess,
+  getFinancialListWatcher,
+  getCityListWatcher,
+  updateUserDataWatcher,
+}, dispatch);
